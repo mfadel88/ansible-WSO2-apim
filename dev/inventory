@@ -1,6 +1,13 @@
 [apim]
 apim_1 ansible_host=[ip_address] ansible_user=[ssh_user]
 
+
+[apim-ex-gateway]
+apim_1 ansible_host=172.28.128.4 ansible_user=vagran
+
+[apim-in-gateway]
+apim_1 ansible_host=172.28.128.4 ansible_user=vagran
+
 # Example
 # [apim]
 # apim_1 ansible_host=172.28.128.4 ansible_user=vagrant
